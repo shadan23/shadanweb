@@ -10,6 +10,7 @@ body {
   color: #868e96;
 }
 
+
 @media (min-width: 992px) {
   body {
     padding-top: 0;
@@ -106,9 +107,9 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    max-width: 15rem;
+    max-height: 15rem;
+    border: 0.3rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
     display: -webkit-box;
@@ -165,7 +166,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: rgb(12, 229, 236) !important;
+  background-color: rgb(55, 100, 100) !important;
 }
 
 .text-primary {
