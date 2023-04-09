@@ -63,7 +63,7 @@
             <a href="mailto:shadansalman@live.com">shadansalman@live.com</a>
           </div>
           <div class="subheading mb-3">About Me</div>
-          <p>A driven, dynamic individual with strong leadership, teamwork, communication, engineering design and project management skills developed through courses, work and volunteer experiences. Proficient technical skills in object oriented programming languages as well as working with electronics, and electrical circuits. Some of my interests include robotics,artificial intelligence, computer security, power systems, renewable energy as well as telecommunications.
+          <p>A driven, dynamic individual with strong leadership, teamwork, communication, engineering design and project management skills developed through courses, work and volunteer experiences. Proficient technical skills in object oriented programming languages as well as working with electronics, and electrical circuits. Some of my interests include robotics, power system design, protection and control and especially renewable energy systems.
             </p>
         </div>
           <p class="lead mb-5">.</p>
@@ -84,19 +84,49 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="proj">
         <div class="my-auto">
           <h2 class="mb-5">Projects</h2>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Moving Robotic Arm with Path Planning Algorithm </h3>
+              <div class="subheading mb-3">ROS2, Python</div>
+              <p> - Designed RRT Path Planning algorithm in Python to iteratively find a path between random nodes until an unobstructed path between the start and goal node is found for the Kinova Gen 3 Robotic Arm to travel </p>
+                - Created a Python script to convert the pixel values from a binarized image map into real-world coordinates based on the workspace of the Kinova Gen 3 Robotic Arm to move the arm </p>
+                - Exported real-world coordinates in meters to a CSV file and used ROS2 to make the robotic arm follow coordinates with 95% accuracy </p>
+                  </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">November - December 2022</span>
+            </div>
+          </div>
+
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0"> Power System Relay Coordination with ETAP </h3>
+              <div class="subheading mb-3">ETAP</div>
+              <p>- Given a single line diagram for a power system, performed load flow and short circuit analysis using ETAP</p>
+              - Determined CT Ratios from load flow and short circuit analysis </p>
+              - Selected parameters for relays such as pickup current, time dial and TCC curve</p>
+              - Ensured relays are coordinated and operate correctly during 3-phase, line to ground and line to line faults
+                  </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">November - December 2022</span>
+            </div>
+          </div>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Capstone Project – THC Quantification in Oral Fluids </h3>
-              <div class="subheading mb-3">MATLAB/Phidgets</div>
-              <p>•	Work in a group to design a device to quantify THC concentrations on lateral flow tests using Lock-In-Thermography process<p>
-                •	Use IR sensors to determine changes in radiation when a laser is shone on LFA's with different THC concentrations <p>
-                •	Use signal processing to determine magnitude of radiation at different frequencies and calculate concentrations of THC <p>
-                •	Responsible for circuitry, part selection, project management and programming of device using LabView, MATLAB and Arduino microcontroller <p>
+              <div class="subheading mb-3">Received ENG4000 Capsone Prize and Paper Published</div>
+              <p> - Used an I2C sensor on an Arduino to measure infrared radiation from excitation of gold nanoparticles when shining an 808 nm diode laser onto a LFA test strip with a positive THC sample </p>
+                - Assessed correlation between IR data and THC concentration by performing signal processing using MATLAB and LabVIEW to find the peak magnitude for different THC concentrations </p>
+                - Selected components such as sensors and lasers based on usability, ease of implementation and a fixed budget of $500 </p>
+                - Designed circuit schematics in ORCAD for the I2C sensor connection to Arduino and for laser diode, driver and PWM (Pusle Width Modulation) controller </p>
+                - View the published paper https://sciforum.net/paper/view/13277 <p>
                   </p>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">September 2021 - Present</span>
+              <span class="text-primary">September 2021 - April 2022</span>
             </div>
           </div>
 
@@ -144,10 +174,10 @@
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Electrical Engineering</h3>
               <div class="subheading mb-3">Lassonde School of Engineering - York University</div>
-              <p>Expected Graduation 2022</p>
+              <p>Expected Graduation April 2023</p>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">September 2017 - Present</span>
+              <span class="text-primary"></span>
             </div>
           </div>
 </p>
@@ -190,11 +220,11 @@
                   <div class="resume-content mr-auto">
                     <h3 class="mb-0">Technical Skills and Knowledge</h3>
                     <div class="subheading mb-3"></div>
-                    <p> •	Programming Languages: Java, Verilog, RISC-V Assembly </p>
+                    <p> •	Programming Languages: Java, Verilog, Lua, Python, C </p>
                     •	Operating Systems: Windows, MacOS, Linux, UNIX </p>
                     •	IDE’s: Eclipse IDE, Atom, Visual Studio </p>
-                    •	Software: MATLAB, LabView, PSPICE, MS Office, Android Studio, PSSE, Simulink </p>
-                    •	Hardware: Oscilloscope, Digital Multimeter, Power supply, Function Generator, Arduino
+                    •	Software: MATLAB/Simulink, LabView, PSPICE, MS Office, Android Studio, PSSE, ETAP, Quartus </p>
+                    •	Hardware: Oscilloscope, Digital Multimeter, Power supply, Function Generator, Arduino, FPGA (DE-10 Lite)
 .</p>
                   </div>
                   <div class="resume-date text-md-right">
@@ -214,11 +244,10 @@
                         <div class="resume-content mr-auto">
                           <h3 class="mb-0">Technology Sales Representative </h3>
                           <div class="subheading mb-3">Staples - Mississauga, ON</div>
-                          <p> •	Act as a knowledgeable resource for customers on products and services <p>
-                              •	Use selling techniques to maximize sales opportunities with customers <p>
-                              •	Facilitate PC and laptop repairs <p>
-                              •	Maintain inventory and company merchandising standards <p>
-</p>
+                          <p>- Provide tailored technology solutions to ensure customer satisfaction</p>
+                          - Assist an average of 30 customers per shift and resolve inquiries </p>
+                          - Handle cash operations and technology services </p>
+                          - Maintain inventory and company merchandising standards </p></p>
 
                         </div>
                         <div class="resume-date text-md-right">
@@ -230,15 +259,14 @@
                         <div class="resume-content mr-auto">
                           <h3 class="mb-0">Test Engineer Intern</h3>
                           <div class="subheading mb-3">Nexeya Canada Inc - Markham, ON</div>
-                          <p> •	Develop mobile and web applications to interface with hardware <p>
-                              •	Design test programs for electrical components <p>
-                              •	Test, debug and validate hardware and parts for use in Nexeya’s products<p>
-                              •	 Provide feedback on usability and serviceability<p>
-
-
+                          <p>  - Developed a Java mobile application in Android Studio to remotely control automated testing equipment (ATE) with TCP connection using socket programming </p>
+                            - Designed Lua test automation program to stress test relay contacts for validating functionality for desired products </p>
+                            - Conducted hipot tests for relays and cables to ensure suitability </p>
+                            - Designed and soldered prototyping boards for testing applications </p>
+                            - Collected data and provided feedback for usability of electrical components </p>
                         </div>
                         <div class="resume-date text-md-right">
-                          <span class="text-primary">October 2020 - Present</span>
+                          <span class="text-primary">January - August 2020</span>
                         </div>
                       </div>
 
@@ -246,9 +274,9 @@
                         <div class="resume-content mr-auto">
                           <h3 class="mb-0">PASS (Peer Assisted Study Session) Leader</h3>
                           <div class="subheading mb-3">Bethune College - York University</div>
-                          <p> •	Direct and facilitate weekly review sessions for first year calculus </p>
-                              •	Provide guidance to assist students to solve problems </p>
-                              •	Act as a mentor for first year students</p>
+                          <p> - Direct and facilitate weekly review sessions for first year calculus </p>
+                              - Provide guidance to assist students to solve problems </p>
+                              - Act as a mentor for first year students</p>
 
                         </div>
                         <div class="resume-date text-md-right">
@@ -261,11 +289,11 @@
                           <h3 class="mb-0">Instructor</h3>
                           <div class="subheading mb-3">Pedalheads Bike Camps Inc.</div> </p>
                           <div class="subheading mb-3"></div>
-                          <p>•Communicate student progress and feedback with parents</p>
-                            •	Teach campers how to ride their bikes safely in a fun, engaging environment</p>
-                            •	Assist a team of instructors and staff</p>
-                            •	Maintain safety and supervision of children</p>
-                            •	Promote summer re-registrations
+                          <p>- Communicate student progress and feedback with parents</p>
+                            -	Teach campers how to ride their bikes safely in a fun, engaging environment</p>
+                            -	Assist a team of instructors and staff</p>
+                            -	Maintain safety and supervision of children</p>
+                            -	Promote summer re-registrations
 </p>
 </p>
                         </div>
@@ -279,10 +307,10 @@
                         <div class="resume-content mr-auto">
                           <h3 class="mb-0">Electronics Co-Chair</h3>
                           <div class="subheading mb-3">IEEE YorkU Student Branch</div>
-                          <p>•Direct and facilitate engaging activities for workshops and events </p>
-                          •	Create relevant workshops for electrical and electronics engineers </p>
-                          •	Outreach and help in recruiting new members </p>
-                          •	Provide timely and accurate advice, guidance and support to all members.
+                          <p>- Direct and facilitate engaging activities for workshops and events </p>
+                          -	Create relevant workshops for electrical and electronics engineers </p>
+                          -	Outreach and help in recruiting new members </p>
+                          -	Provide timely and accurate advice, guidance and support to all members.
 
                     </p>
                         </div>
